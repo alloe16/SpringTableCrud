@@ -59,4 +59,10 @@ public class MainController {
         usrsrvs.save(user);
         return "index";
     }
+      @GetMapping("/users/logOut")
+    public String logOut(){
+        return "index";
+    }
+}
+
 }
